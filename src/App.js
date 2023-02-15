@@ -5,12 +5,14 @@ import Services from './components/Services'
 import Hero from './components/Hero'
 import Tours from './components/Tours'
 import Footer from './components/Footer'
+import About from './components/About'
 
 function App() {
   return (
     <>
       <NavBar />
       <Hero />
+      <About />
       <Services />
       <Tours />
       <Footer />
