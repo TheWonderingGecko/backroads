@@ -7,7 +7,6 @@ export const pageLinks = [
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'services' },
   { id: 4, href: '#tours', text: 'tours' },
-  { id: 5, href: '#tours', text: 'prices' },
 ]
 
 export const socialLinks = [
@@ -60,5 +59,23 @@ export const toursSections = [
     country: ' Kenya',
     duration: '20 days',
     price: 'from $3300',
+  },
+]
+
+export const servicesSection = [
+  {
+    id: 1,
+    icon: 'fas fa-wallet fa-fw',
+    serviceTitle: 'saving money',
+  },
+  {
+    id: 2,
+    icon: 'fas fa-tree fa-fw',
+    serviceTitle: 'Endless Hiking',
+  },
+  {
+    id: 3,
+    icon: 'fas fa-socks fa-fw',
+    serviceTitle: 'Amazing Comfort',
   },
 ]
